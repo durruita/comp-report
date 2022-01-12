@@ -1,0 +1,135 @@
+/*Global*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+ h1,
+ h2,
+ h3 {
+     text-align:center;
+     padding:10px;
+ }
+ p{
+     line-height: 2;
+     text-align: justify;
+ }
+ a{
+     text-decoration: none;
+ }
+/*utilities*/
+.bold-text{
+    font-weight: 700;
+}
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*header*/
+
+header{
+    background-color: rgb(111, 154, 211);
+    height: 200px;
+}
+.header-title h1{
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.header-title h2{
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+.header-title p{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 3px;
+    padding-bottom: 15px;
+
+}
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 13px;
+}
+nav a {
+    color: white;
+    margin-right: 30px;
+    letter-spacing: 3px;
+}
+nav a:hover{
+    font-weight: 800;
+    opacity: 0.9;
+    color: lightgrey;
+}
+/*main*/
+.my-photo{
+    max-width: 100%;
+    margin: 20px auto;
+    display: block;
+    border-radius: 50%;
+    border: 8px solid rgb(145, 206, 247);
+    padding: 3px;
+    transform: scale(.7);
+}
+.my-photo:hover{
+    transform: scale(0.8);
+}
+
+/*contact*/
+.contact{
+    text-align: center;
+}
+.linked-in{
+    color: gray;
+    transition: color 0.5s;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linked-in:hover{
+    color: black;
+}
+.insta{
+    color: gray;
+    transition: color 0.2s;
+    margin: 20px;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.insta:hover{
+    color: black;
+}
+/*bio*/
+li{
+    font-size: 18px;
+    margin: 40px;
+}
+.bio{
+    text-align: center;
+}
+.hobbies{
+    text-align: center;
+}
+/*footer*/
+.footer{
+    text-align: center;
+    background-color: rgb(178, 206, 238);
+    text-decoration: white;
+    
+}
+main{
+    background-color: rgb(140, 170, 214);
+   ;
+}
